@@ -1,0 +1,5 @@
+package lab2.person;
+
+public enum Plec {
+    Kobieta, Mezczyzna
+}

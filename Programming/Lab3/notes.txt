@@ -1,0 +1,12 @@
+super - reference to immediate parent class
+super(args) <- refer to superclass constructor
+super.method() <- refer to superclass method
+Polimorfizm (wielopostaciowość)
+
+B extends A
+A b2 = new B(); <- zmienna referencyjna typu A z przypisanym obiektem B	
+
+Object[] listaObiektow = new Object[]{line, circle, new Point(3,4). new String("boobs"), 4}
+4 here is treated like an Integer due to type promotion
+putting 4 in a place for objects is the same as just writing new Integer(4)
+Using Integer's constructor directly is deprecated, it's better to use Integer.valueOf(4)

@@ -1,0 +1,32 @@
+public class Point {
+
+float wspX, wspY;
+
+public Point(){
+}
+
+public Point(float wspX, float wspY){
+this.wspX = wspX;
+this.wspY = wspY;
+}
+
+public void setWspX(float wspX){
+this.wspX = wspX;
+}
+
+public void setWspY(float wspY) {
+this.wspY = wspY;
+}
+
+public float getWspX(){
+return wspX;
+}
+
+public float getWspY() {
+return wspY;
+}
+
+public double distanceToPoint(Point point){
+return Math.sqrt(Math.pow(this.wspX - point.getWspX(), 2) + Math.pow(this.wspY - point.getWspY(), 2));
+}
+}
